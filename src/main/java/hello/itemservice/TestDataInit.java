@@ -1,12 +1,11 @@
 package hello.itemservice;
 
-import org.springframework.stereotype.Component;
-
 import hello.itemservice.domain.item.Item;
 import hello.itemservice.domain.item.ItemRepository;
-import jakarta.annotation.PostConstruct;
 import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Component;
 
+import javax.annotation.PostConstruct;
 
 @Component
 @RequiredArgsConstructor
